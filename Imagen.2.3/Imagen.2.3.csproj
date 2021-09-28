@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Imagen._2._3</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>assets\star_wars_battlefront.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="episodioV.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="episodioV.jpg" />
+  </ItemGroup>
+
+</Project>
